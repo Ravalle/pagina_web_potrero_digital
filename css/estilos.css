@@ -1,1 +1,111 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
+
+.body{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{ 
+    background-color: #A2D0C1;
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logotipo{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 70%;
+    height: 70%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.info{
+    padding: 2%;
+    margin: 2%;
+    background-color: #C3A86D;
+    min-height: 50vh;
+}
+
+.fin{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #C3A86D;
+    padding: 2%;
+}
+
+.section_producto{    
+    padding: 2%;
+    margin: 2%;
+    background-color: #C3A86D;
+    display: flex;
+    height: 70vh;
+}
+
+.lado_a{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+    text-align: justify;
+}
+
+.text_a{
+    margin-bottom: 20px;
+}
+
+.lado_b{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.imagen_maquina{
+    height: 100%;
+}
+
+@media (max-width:768px) {
+    .section_producto{    
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    
+    .lado_a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 2%;
+        text-align: justify;
+    }
+    
+    .lado_b{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .imagen_maquina{
+        max-width: 100%;
+    }
+}
