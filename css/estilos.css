@@ -5,38 +5,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.header{ 
-    background-color: #A2D0C1;
-    display: flex;
-    flex-direction: column;
-    min-height: 20vh;
-}
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    text-decoration: none;
-}
-
-.logotipo{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-}
-
-.logo{
-    width: 70%;
-    height: 70%;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
 .info{
     padding: 2%;
     margin: 2%;
