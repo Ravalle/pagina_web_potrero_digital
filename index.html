@@ -10,14 +10,13 @@
 </head>
 <body class="body">
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light padding_header">
             <div class="container-fluid menu">
                 <a class="navbar-brand" href="index.html"><img src="imagenes_paginaweb/logo.png" alt="Logo Imagen" width="40%" height="40%"></a>
-                  <div class="navbar-nav">
+                <div class="navbar-nav">
                     <a class="nav-link seccionesdemenu" href="index.html">Inicio</a>
                     <a class="nav-link seccionesdemenu" href="maquinas.html">Maquinas de Coser</a>
                     <a class="nav-link seccionesdemenu" href="preguntas_frecuentes.html">Pregunta Frecuentes</a>
-                  </div>
                 </div>
             </div>
         </nav>
@@ -37,12 +36,23 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates optio vel, perferendis laboriosam expedita esse ullam odio tempore repudiandae illo repellendus, possimus ipsum consectetur cum non nisi eos eius! Qui?</p>
             </div> 
          </section>
-         <section class="section_info">
-             <div>
-                <!--Agregar un formulario para hacer reservas-->
-                <p>-FORMULARIO-</p>
-             </div>
-         </section>
+        <section class="section_info">
+            <div>         
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">No se compara tu correo electrónico con nadie más.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Consulta</label>
+                      <input type="consulta" class="form-control" id="exampleInputPassword1">
+                      <div id="emailHelp" class="form-text">Describe el servicio que buscas o la situación de tu máquina</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="fin">
         <h3>Contacto</h3>

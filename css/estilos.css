@@ -6,7 +6,10 @@
     font-family: 'Times New Roman', Times, serif;}
 
     /*header*/
+.header nav {
+    padding-top: 0px;}
 .menu{
+    margin-top: 0px;
     background-color:#6D9886;}
 .seccionesdemenu{ 
     font-family: 'Times New Roman', Times, serif;
@@ -16,6 +19,7 @@
     /*footer*/
 .fin{
     display: flex;
+    align-items: flex-end;
     flex-direction: column;
     justify-content: flex-end;
     background-color: #6D9886;
@@ -31,6 +35,8 @@
 .section_info{
     padding: 1%;
     margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #D9CAB3;
     min-height: 50vh;
     border: dashed;
@@ -40,6 +46,8 @@
 .section_producto{ 
     padding: 1%;
     margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #D9CAB3;
     display: flex;
     height: 70vh;
