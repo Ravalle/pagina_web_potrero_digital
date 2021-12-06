@@ -23,10 +23,15 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    justify-content: flex-end;
     background-color: #6D9886;
     padding: 2%;
     color: black;}
+
+.fin p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .fin a {
     color: black;
     text-decoration: none;}
@@ -35,24 +40,35 @@
 
     /*index*/
 .section_info{
-    padding: 1%;
-    margin: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10vh;
+    margin: 10vh;
     min-height: 50vh;
     border: dashed;
-    border-color: #6D9886;}
+    border-color: #6D9886;
+}
+
+.section_info_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
     /*maquinas*/
 .section_producto{ 
-    padding: 1%;
-    margin: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
     display: flex;
-    height: 70vh;
+    justify-content: space-around;
+    min-height: 80vh;
+    padding: 10vh;
+    margin: 10vh;
+    height: 80vh;
     border: dashed;
     border-color: #6D9886;}
+
+    
 .lado_a{
     width: 50%;
     display: flex;
@@ -79,31 +95,38 @@
     margin-right: 5%;
     min-height: 50vh;
     border: dashed;
-    border-color: #6D9886;
-}
-    @media (max-width:768px) {
-    .section_producto{    
-        display: flex;
-        flex-direction: column-reverse;
-        height: 100%;
-    }
-    
-    .lado_a{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding-right: 2%;
-        text-align: justify;
-    }
-    
-    .lado_b{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
+    border-color: #6D9886;}
 
-    .imagen_maquina{
-        max-width: 100%;
-    }
+    
+@media (max-width:768px) {
+
+        /*maquinas*/
+
+.section_producto{    
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+    
+.lado_a{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+    text-align: justify;
+}
+    
+.lado_b{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.imagen_maquina{
+max-width: 100%;
+margin-bottom: 10vh;
+}
+
+
 }
