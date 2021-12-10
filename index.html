@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +10,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body class="body">
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid menu">
-                <a href="index.html">
+                <a class="logo_ubicacion" href="index.html">
                     <img src="imagenes_paginaweb/macovi_logo.png" alt="Logo Imagen" width="40%" height="40%">
                 </a>
-                <button class="navbar-toggler button_border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-control form_respuestas="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
+                <button class="navbar-toggler button_border" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-control form_respuestas="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav space_seccionesdemenu">
+                    <ul class="navbar-nav seccionesdemenu">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">INICIO</a>
                         </li>
@@ -40,53 +45,68 @@
         <section class="section_info">
             <div>
                 <h2 class="section_info_title">Bienvenida</h2>
-                <p class="section_info_text">MACOVI es una pequeña empresa que te ofrece un impecable servicio de reparación, mantenimiento y venta de máquinas de coser. Ponete en contacto para hacer una consulta o agendar un servicio.</p>
+                <p class="section_info_text">MACOVI es una pequeña empresa que te ofrece un impecable servicio de
+                    reparación, mantenimiento y venta de máquinas de coser. Ponete en contacto para hacer una consulta o
+                    agendar un servicio.</p>
+            </div>
+        </section>
+        <section class="section_info">
+            <div>
+                <h2 class="section_info_title">Contactame</h2>
+                <ul>
+                    <li><a class="section_info_link" href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+                    </li>
+                    <li><a class="section_info_link" href="tel:+542944778089">542944778089</a></li>
+                    <li><a class="section_info_link"
+                            href="mailto:marcelo.ravalle@gmail.com">marcelo.ravalle@gmail.com</a></li>
+                </ul>
             </div>
         </section>
         <section class="section_info">
             <div>
                 <h2 class="section_info_title">Descripción del Servicio</h2>
-                <p class="section_info_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sed fugit eveniet animi inventore autem voluptatibus debitis veniam facere unde architecto quisquam, repudiandae deserunt, iusto fugiat alias, expedita impedit facilis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident totam ipsam quos doloremque ducimus, corporis molestiae ab? Laboriosam, dolore amet. Possimus temporibus iusto veniam. Omnis aliquid illum distinctio necessitatibus quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam itaque et pariatur illum ab aut necessitatibus quisquam sequi, aperiam est corporis eos suscipit ad eius? Quas temporibus vel autem maiores!</p>
-            </div> 
-         </section>
+                <div class="section_info_text">
+                    <p>Se realizan reparaciones y mantenimiento a maquinas de coser de cualquier tipo.</p>
+                    <p>El precio se define según el tipo de servicio requerido.</p>
+                    <p>El servicio se cobra al finalizar el trabajo, cuando se entrega le maquina.</p>
+                    <p>Actualmente hay maquinas de coser a la venta.</p>
+                    <p>Contactame para más información.</p>
+                    <p></p>
+                </div>
+            </div>
+        </section>
         <section class="section_info">
-            <div>         
-                
-                
-
+            <div>
                 <form>
-
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email</label>
-                      <input type="email" class="form-control form_respuesta" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">No se compartirá tu correo electrónico con nadie más.</div>
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control form_respuesta" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">No se compartirá tu correo electrónico con nadie más.
+                        </div>
                     </div>
-
-
                     <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Consulta</label>
-                      <input type="consulta" class="form-control form_respuesta" id="exampleInputPassword1">
-                      <div id="emailHelp" class="form-text">Describe el servicio que buscas o la situación de tu máquina de coser. Menciona cosas como limpieza, piezas rotas o ruidos extraños.</div>
+                        <label for="exampleInputPassword1" class="form-label">Consulta</label>
+                        <input type="consulta" class="form-control form_respuesta" id="exampleInputPassword1">
+                        <div id="emailHelp" class="form-text">Describe el servicio que buscas o la situación de tu
+                            máquina de coser. Menciona cosas como limpieza, piezas rotas o ruidos extraños.</div>
                     </div>
-
-
                     <button type="submit" class="btn btn-secondary">Enviar</button>
-
                 </form>
-
-
-
             </div>
         </section>
     </main>
     <footer class="fin">
-        <h2 class="section_info_title">Contacto</h2>
+        <h2>Contacto</h2>
         <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
         <a href="tel:+542944778089">542944778089</a>
         <a href="mailto:marcelo.ravalle@gmail.com">marcelo.ravalle@gmail.com</a>
         <p>Página creada por Aldana Ravalle</p>
         <a href="mailto:aldana.ravalle.djn@gmail.com">aldana.ravalle.djn@gmail.com</a>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
